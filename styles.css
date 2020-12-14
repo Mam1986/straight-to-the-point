@@ -24,7 +24,9 @@
 .span_3_of_12 {
   width: 25%;
 }
-
+.span_3_of_12 img{
+  position: relative; left: 100px;
+}
 .span_4_of_12 {
   width: 33.33%;
 }
@@ -64,10 +66,9 @@
 h1{
   font-size:50px;
   text-align: center;
-  padding-right: 100px;
 
-}
-.topnav{
+
+
 
 
 }
@@ -100,13 +101,37 @@ h1{
   background-color: #111;
 
 }
-
-
-
 h2{
   text-align: center;
+
   }
 p.one{
   text-align: center;
   font-size: 15px;
+}
+h3{
+  position: relative;left:50px;
+  font-size:55px;
+  text-align: center;
+
+}
+p{
+  font-size:25px;
+}
+h4{
+  font-size:40px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.offered{
+  position: relative;left:40px;
+
+}
+.facility{
+  position:relative;left:25px;
+
+}
+.bottomnav{
+  font-size:30px;
 }
