@@ -1,5 +1,5 @@
 body{
-  background-color: grey;
+  background-color: #03a3df;
 }
 .topnav {
   display: flex;
@@ -23,16 +23,15 @@ body{
     list-style-type:none;
     margin-bottom: 20px;
     display: block;
-    color: white;
+    color: #ecb722;
     font-size:30px;
     text-align: center;
     padding: 20px 30px;
     text-decoration: none;
   }
 
-  /* Change the link color to #111 (black) on hover */
   .topnav li a:hover {
-    background-color: #111;
+    background-color: #1b447f;
   }
 
 
@@ -40,37 +39,47 @@ body{
 
 .flexbox-conatiner {
   display:flex;
-  justify-content:space-around;
+  flex-direction: row-reverse;
+
   }
 
 .flexbox-item {
   margin:10px;
   border:3px solid #333;
-background-color: #dfdfdf;
+background-color: #ecb722;
 }
 
 .flexbox-item-1{
-
-min-height:50px;
-width:50px;
-
+display:flex;
+padding:10px;
+outline: 3px solid#ecb722;
 }
+
 .flexbox-item-2{
   display:flex;
-
-
-  min-height:100px
+  padding:20px;
+  text-align: center;
+  outline: 3px solid#ecb722;
 }
+
 .flexbox-item-3 {
+  padding:20px;
+  text-align: center;
+  outline: 3px solid#ecb722;
 
 
-  min-height:100px;
-  width:50px;
+
 }
 .flexbox-item-4{
+  display:flex;
+padding:20px;
+outline: 3px solid#ecb722;
+margin:20px 100px 20px 70px; 
 
-  width:100px;
 
+padding:20px;
+}
 
-
+.flexbox-item-5{
+  padding:10px;
 }
