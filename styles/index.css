@@ -81,6 +81,7 @@ h1{
 .topnav ul {
   list-style-type: none;
   margin: 20px;
+  margin-right: 55%;
   padding: 20px;
   overflow: hidden;
   background-color: #333;
@@ -100,6 +101,7 @@ h1{
   padding: 20px 30px;
   text-decoration: none;
 }
+
 
 /* Change the link color to #111 (black) on hover */
 .topnav li a:hover {
@@ -140,12 +142,16 @@ h4{
   margin-left: 100px;
 
 }
-.bottomnav{
-  font-size:30px;
+.bottomnav a{
+  font-size:40px;
+  text-decoration: none;
+  color:black;
 
 }
 
 .facility1{
 margin-left: 150px;
-
+}
+a:hover{
+  color:white;
 }
