@@ -1,157 +1,47 @@
-* {
-    box-sizing: border-box;
-
+.grid-container{
+height:100vh;
+border:10px solid #14a76c;
+display: grid;
+grid-template-areas:
+"header header header"
+"nav main ads"
+"footer footer footer";
+grid-template-rows: 60px 1fr 60px;
 }
 
-.col {
-    float: left;
-    padding: 5px;
 
 }
-body{
-  background-color: #ecb722;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.span_1_of_12 {
-  width: 8.33%;
-}
-
-.span_2_of_12 {
-  width: 16.66%;
-}
-
-.span_3_of_12 {
-  width: 25%;
-}
-.span_3_of_12 img{
-  position: relative; left: 100px;
-}
-.span_4_of_12 {
-  width: 33.33%;
-}
-
-.span_5_of_12 {
-  width: 41.66%;
-}
-
-.span_6_of_12{
-
-  width: 50%;
-
-}
-
-.span_7_of_12 {
-  width: 58.33%;
-}
-
-.span_8_of_12 {
-  width: 66.66%;
-}
-
-.span_9_of_12 {
-  width: 75%;
-}
-
-.span_10_of_12 {
-  width: 83.33%;
-}
-
-.span_11_of_12 {
-  width: 91.66%;
-}
-
-.span_12_of_12 {
-  width: 100%;
-}
-h1{
-
-  font-size:40px;
-  font-family:sans-serif;
-  font-weight:bold;
-  text-align: center;
-
+.topnav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .topnav ul {
-  list-style-type: none;
-  margin: 20px;
-  margin-right: 55%;
-  padding: 20px;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav li {
-  float: left;
-}
-
-
-.topnav li a {
-  margin-bottom: 20px;
-  display: block;
-  color: white;
-  font-size:30px;
-  text-align: center;
-  padding: 20px 30px;
-  text-decoration: none;
-}
-
-
-/* Change the link color to #111 (black) on hover */
-.topnav li a:hover {
-  background-color: #111;
-
-}
-h2{
-  text-align: center;
-margin-left: 35px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
   }
-p.one{
-margin-top: -12px;
-margin-left: 40px;
-  font-size: 15px;
-  text-align: center;
-}
-h3{
-  position: relative;left:50px;
-  font-size:55px;
-  text-align: center;
 
-}
-p{
-  font-size:25px;
-}
-h4{
-  font-size:40px;
-  margin-top: 15px;
-  text-align: center;
-}
+  .topnav li {
+    list-style-type:none;
+    float: left;
+  }
 
-.offered{
-  margin-left: 50px;
+  .topnav li a {
+    list-style-type:none;
+    margin-bottom: 20px;
+    display: block;
+    color: #ecb722;
+    font-size:30px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
 
-
-}
-.facility{
-  margin-left: 100px;
-
-}
-.bottomnav a{
-  font-size:40px;
-  text-decoration: none;
-  color:black;
-
-}
-
-.facility1{
-margin-left: 150px;
-}
-a:hover{
-  color:white;
-}
+  .topnav li a:hover {
+    background-color: #1b447f;
+    border:3px solid #ecb722;
+    outline:1px solid black;
+  }
