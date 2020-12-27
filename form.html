@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form action="URL" method="get" name="spt-form">
+<section>
+  <h1>Contact us</h1>
+</section>
+<section>
+<h2>What is your?</h2>
+    <label>First name
+    <input type="text" name="name" value="">
+    </label>
+    <label>Last name
+    <input type="text" name="name" value="">
+    </label>
+    <label>Phone number
+    <input type="text" name="phone" value="">
+    </label>
+
+      <label>Email address
+  <input type="email" name="email">
+  </label>
+  </section>
+  <section>
+    <h2>Personal perference</h2>
+  <p>Contact me by</p>
+  <label>Phone
+    <input type="radio" name="contact-me"  value="phone">
+    </label>
+
+<label>Email
+<input type="radio" name="contact-me"  value="email">
+</label>
+</section>
+
+<section>
+  <h3>Birthdate</h3>
+        <label class="first-1">Date of birth
+          <input type="date" name="date-of-birth">
+          </label>
+</section>
+<section>
+  <h4>Experience</h4><br>
+            <label class="first-2">Level of experience</label>
+              <select name="experience">
+
+
+                <option value="beginner">beginner</option>
+                <option value="intermediate">intermediate</option>
+                <option value="advanced">advanced</option>
+
+                </select>
+</section>
+<section><br>
+  <h5>Get in touch</h5>
+
+        <p>We'd love to hear from you! Leave a message<br> below and we will get in touch with you shortly.</p>
+
+        <label>Send us a message</label>
+        <textarea name="message" rows="5" cols="15"></textarea>
+</section>
+<section class="two">
+  <h6>Submit</h6>
+<input type="submit" name="submit" value="send">
+</section>
+  </form>
+</body>
+</html>

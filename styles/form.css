@@ -1,0 +1,52 @@
+* {
+  box-sizing:border-box;
+}
+body{
+  background-color: #03a3df;
+}
+
+h2,h3,h4,h5,h6{
+  display:none;
+}
+
+input{
+  padding:6px;
+  font-size:14px;
+  border-radius:4px;
+}
+input[type="radio"]{
+  height:14px;
+  width:14px;
+}
+input[type="date"]{
+  margin-top:10px;
+
+}
+
+label{
+  width:200px;
+  display: block;
+}
+
+
+textarea{
+  padding:6px;
+  font-size:14px;
+}
+option {
+  padding: 6px;
+  font-size:14px;
+  border-radius: 4px;
+}
+select{
+margin-top:10px;
+}
+legend{
+  font-size:20px;
+}
+.first-1 {
+  margin-top:20px;
+}
+.label-2 {
+  margin-right:40px;
+}
