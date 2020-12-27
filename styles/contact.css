@@ -56,10 +56,16 @@ body{
 }
 .map{
   margin:40px;
+  border:4px solid black;
 }
 a{
   margin-top:20px;
   padding:10px;
   text-decoration: none;
   color:black;
+}
+.bottomnav a:hover {
+  background-color: #03a3df;
+  border:3px solid #ecb722;
+  outline:1px solid #333;
 }

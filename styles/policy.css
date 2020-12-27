@@ -1,5 +1,8 @@
-body{
-  background-color: #1b447f;
+*{
+  padding:3px;
+  }
+  body{
+  background-color: #03a3df;
 }
 
 .topnav {
@@ -36,8 +39,15 @@ body{
     border:3px solid #ecb722;
     outline:1px solid black;
   }
-  .bottomnav a:hover {
-    background-color: #03a3df;
-    border:3px solid #ecb722;
-    outline:1px solid #333;
-  }
+
+a{
+  margin-top:20px;
+  padding:10px;
+  text-decoration: none;
+  color:black;
+}
+.bottomnav a:hover {
+  background-color: #03a3df;
+  border:3px solid #ecb722;
+  outline:1px solid #333;
+}

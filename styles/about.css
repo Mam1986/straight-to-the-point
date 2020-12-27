@@ -107,3 +107,8 @@ footer{
   text-align: center;
   margin-top: 30px;
 }
+.bottomnav a:hover {
+  background-color: #03a3df;
+  border:3px solid #ecb722;
+  outline:1px solid #333;
+}
