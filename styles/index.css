@@ -36,8 +36,3 @@ body{
     border:3px solid #ecb722;
     outline:1px solid black;
   }
-  .bottomnav a:hover {
-    background-color: #03a3df;
-    border:3px solid #ecb722;
-    outline:1px solid #333;
-  }
